@@ -7,7 +7,8 @@ namespace JSON_PROBLEMS
         static void Main(string[] args)
         {
             Operation json = new Operation();
-            json.ReadJsonFile("E:\\JSON_Problems\\JSON_PROBLEMS\\Inventory.json");
+            json.ReadJsonFile("E:\\Update_JSON_Problem\\JSON_Problems\\JSON_Problems\\Inventory.json");
+            json.ReadJsonFile1("E:\\Update_JSON_Problem\\JSON_Problems\\JSON_Problems\\SecondInventory.json");
         }
     }
 }

@@ -1,2 +1,53 @@
 {
+  "TypesOfRice": [
+    {
+      "Name": "Basumathi",
+      "Weight": "10",
+      "Price": "100"
+    },
+    {
+      "Name": "Rice2",
+      "Weight": "20",
+      "Price": "200"
+    },
+    {
+      "Name": "Rice1",
+      "Weight": "30",
+      "Price": "300"
+    }
+  ],
+  "TypesOfWheat": [
+    {
+      "Name": "Wheat1",
+      "Weight": "35",
+      "Price": "100"
+    },
+    {
+      "Name": "Wheat1",
+      "NumberOfShare": "29",
+      "Price": "200"
+    },
+    {
+      "Name": "Wheats3",
+      "Weight": "40",
+      "Price": "300"
+    }
+  ],
+  "TypesOfPulses": [
+    {
+      "Name": "Pulses1",
+      "Weight": "15",
+      "Price": "100"
+    },
+    {
+      "Name": "Pulses2",
+      "Weight": "25",
+      "Price": "200"
+    },
+    {
+      "Name": "Pulses3",
+      "Weight": "35",
+      "Price": "300"
+    }
+  ]
 }

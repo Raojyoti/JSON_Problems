@@ -20,5 +20,34 @@ namespace JSON_PROBLEMS
                 Console.WriteLine(content.Name + "   " + content.Weight + "   " + content.Price + "   " + value);
             }
         }
+        public void ReadJsonFile1(string filePath)
+        {
+            var json = File.ReadAllText(filePath);
+            Model data = JsonConvert.DeserializeObject<Model>(json);
+            List<Model> typesOfRice = data.TypesOfRice;
+            List<Model> typesOfWheat = data.TypesOfWheat;
+            List<Model> typesOfPulses = data.TypesOfPulses;
+            Console.WriteLine("TypeOfRice Weight Price Total Value");
+            Console.WriteLine("------------------------------------------------------");
+            foreach (var content in typesOfRice)
+            {
+                double value = content.Price * content.Weight;
+                Console.WriteLine(content.Name + "   " + content.Weight + "   " + content.Price + "   " + value);
+            }
+            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine("TypeOfRice Weight Price Total Value");
+            foreach (var content in typesOfWheat)
+            {
+                double value = content.Price * content.Weight;
+                Console.WriteLine(content.Name + "   " + content.Weight + "   " + content.Price + "   " + value);
+            }
+            Console.WriteLine("------------------------------------------------------");
+            Console.WriteLine("TypeOfRice Weight Price Total Value");
+            foreach (var content in typesOfWheat)
+            {
+                double value = content.Price * content.Weight;
+                Console.WriteLine(content.Name + "   " + content.Weight + "   " + content.Price + "   " + value);
+            }
+        }
     }
 }
