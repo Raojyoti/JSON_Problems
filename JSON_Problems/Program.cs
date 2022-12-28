@@ -9,6 +9,7 @@ namespace JSON_PROBLEMS
             Operation json = new Operation();
             json.ReadJsonFile("E:\\Update_JSON_Problem\\JSON_Problems\\JSON_Problems\\Inventory.json");
             json.ReadJsonFile1("E:\\Update_JSON_Problem\\JSON_Problems\\JSON_Problems\\SecondInventory.json");
+            json.ReadJsonFile2("E:\\Update_JSON_Problem\\JSON_Problems\\JSON_Problems\\SecondInventory.json");
         }
     }
 }

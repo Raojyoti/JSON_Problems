@@ -49,5 +49,18 @@ namespace JSON_PROBLEMS
                 Console.WriteLine(content.Name + "   " + content.Weight + "   " + content.Price + "   " + value);
             }
         }
+        public void ReadJsonFile2(string filePath)
+        {
+            var json = File.ReadAllText(filePath);
+            Model data = JsonConvert.DeserializeObject<Model>(json);
+            List<Model> stockReport = data.StockReport;
+            Console.WriteLine("Name NumberOfShares Price TotalValue");
+            Console.WriteLine("------------------------------------------------------");
+            foreach (var content in stockReport)
+            {
+                double value = content.Price * content.NumberOfShares;
+                Console.WriteLine(content.Name + "   " + content.NumberOfShares + "   " + content.Price + "   " + value);
+            }
+        }
     }
 }

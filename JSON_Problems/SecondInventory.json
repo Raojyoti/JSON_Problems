@@ -49,5 +49,22 @@
       "Weight": "35",
       "Price": "300"
     }
+  ],
+  "StockReport": [
+    {
+      "Name": "TCS",
+      "NumberOfShares": "15",
+      "Price": "100"
+    },
+    {
+      "Name": "HCL",
+      "NumberOfShares": "25",
+      "Price": "200"
+    },
+    {
+      "Name": "Capgimini",
+      "NumberOfShares": "35",
+      "Price": "300"
+    }
   ]
 }
